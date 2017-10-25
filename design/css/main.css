@@ -19,14 +19,6 @@ import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,50
 	transition-property: background-color, color, initial;
 	transition-duration: initial, initial, 0.3s;
 	transition-timing-function: initial, initial, initial;
-	transition-delay: initial, initial, initial;
-	float: right;
-	background-color: #ff8080;
-	color: #1C1C2D;
-	font-size: 15px;
-	font-weight: 600;
-	letter-spacing: 5px;
-	border: 0;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -59,7 +51,15 @@ h3 {
 	font-weight: 300;
 }
 h4 {
-	font-size: 22px;
+	font-size:
+	transition-delay: initial, initial, initial;
+	float: right;
+	background-color: #ff8080;
+	color: #1C1C2D;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	border: 0;22px;
 	color: #2d3033;
 	font-weight: 400;
 }
