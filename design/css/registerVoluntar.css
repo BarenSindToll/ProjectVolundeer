@@ -44,6 +44,14 @@ input[type="radio"]:first-child {
     margin-left: 0;
 }
 
+input[type="tel"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px steel blue;
+
+}
+
 input[type="submit"]{
     width: 345px;
     height: 45px;
