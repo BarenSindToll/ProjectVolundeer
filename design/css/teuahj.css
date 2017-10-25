@@ -1,0 +1,5 @@
+html body section.banner header#header.fixed div.header-content.clearfix.menu-wrap nav.naviagtion ul.primary-nav.clearfix li#butoane-basic a {
+	padding: 20px 10px;
+	margin: 0px auto;
+	background-color: red; 
+}
