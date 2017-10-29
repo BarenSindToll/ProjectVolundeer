@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="../css/registerVoluntar.css">
+    <script type="text/javascript" src="../js/countryCity.js"></script>
+
+</head>
+
+
+
+<body>
+    <h1>Register</h1>
+    <form>
+        <input type="text" placeholder="Firstname">
+        <input type="text" placeholder="Lastname">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm password">
+
+
+        <div id="widget">
+
+
+<table>
+<tr>
+<td style="text-align: left;">Country:</td>
+<td style="text-align: left;">
+<select name="country" id="country" onchange="setCities();">
+  <option value="Romania">Romania</option>
+  <option value="United Kingdom">United Kingdom</option>
+</select>
+</td>
+
+<td style="text-align: left;">City:</td>
+<td style="text-align: left;">
+<select name="city"  id="city">
+  <option value="">Please select a City</option>
+</select>
+</td>
+</tr>
+</table>
+
+        <div>
+            <input type="radio" id="male" name="gender"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender"><label for="female">Female</label>
+
+        </div>
+        <input type="submit" name="Submit">
+    </form>
+
+</body>
+</html>
