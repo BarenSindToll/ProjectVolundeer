@@ -31,7 +31,7 @@
   float: right;;
 }
 #maimult:hover, #maimult:focus {
-	background-color: #1C1C2D;
+	background-color: #2c3e50;
 	color: #ff8080;
 }
 p {
@@ -93,12 +93,12 @@ h5 {
 	text-transform: uppercase;
 }
 .vreaubuton:hover, .vreaubuton:focus{
-	background-color: #1C1C2D;
+	background-color: 2c3e50;
 	color: #ffffff;
 }
 
 .butonlog {
-	background-color: #ff8080;
+	background-color: #50b66a;
 	color: #1C1C2D;
 	font-size: 16px;
 	font-weight: 700;
@@ -361,7 +361,7 @@ body {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-color: #1C1C2D;
+	background-color: #2c3e50;
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
