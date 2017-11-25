@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Volundeer</title>
+
+  <link href="../css/bootstrap1.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="../logo/favicons/favicon32x32.png"/>
+  <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="../css/freelancer.min.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body id="page-top">
+
+<h3>EVENTS</h3>
+<form action="" method="get">
+  <input type="checkbox" name="event" value="Charity">Charity<br>
+  <input type="checkbox" name="event" value="Music">Music<br>
+  <input type="checkbox" name="event" value="Art">Art<br>
+  <input type="checkbox" name="event" value="Sports">Sport<br>
+  <input type="checkbox" name="event" value="Children">Children<br>
+  <input type="submit" value="submit" value="Submit">
+</form>
+
+
+
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Events</a>
+  <a href="#">NGOs</a>
+  <a href="#">More</a>
+  <a href="#">More</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>

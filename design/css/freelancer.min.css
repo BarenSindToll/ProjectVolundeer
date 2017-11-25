@@ -8,6 +8,9 @@
    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
    overflow-x:hidden
    }
+   #temirice {
+     text-align: center;
+   }
    p {
      font-size:20px;
      }
