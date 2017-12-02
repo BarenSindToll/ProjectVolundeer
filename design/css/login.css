@@ -74,31 +74,17 @@ input, button {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.login__check {
-  position: absolute;
-  top: 16rem;
-  left: 13.5rem;
-  width: 14rem;
-  height: 2.8rem;
-  background: #fff;
-  -webkit-transform-origin: 0 100%;
-          transform-origin: 0 100%;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-.login__check:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 100%;
-  width: 2.8rem;
-  height: 5.2rem;
-  background: #fff;
-  box-shadow: inset -0.2rem -2rem 2rem rgba(0, 0, 0, 0.2);
-}
+
+
+
+
 img {
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     filter: alpha(opacity=50); /* For IE8 and earlier */
+    display: block;
+    margin: auto;
+ 
+
 }
 .login__form {
   position: absolute;
