@@ -55,13 +55,11 @@
       </div>
     </nav>
 
-    <!-- Header -->
     <header class="masthead">
       <div class="container">
         <!--<img class="logomare" src="../../logo/Artboarddecupat2.jpg" style="max-width:100%;height:auto;" alt="" >-->
         <div class="intro-text">
           <span class="name"></span>
-
         </div>
       </div>
     </header>
@@ -74,93 +72,231 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
             bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
             bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <a href="#" class="btn btn-lg btn-outline">
-              <i class="fa fa-download"></i>
-              More
-            </a>
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
+
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        .column img {
+            margin-top: 12px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media (max-width: 800px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+        </style>
+
+
+
+
     <section id="portfolio">
       <div class="container">
         <h2 class="text-center">Events</h2>
         <hr class="star-primary">
-        <div class="row">
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+    <div class="row">
+
+      <div class="column">
+
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/2021timisoara.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+            </div>
+            <img class="img-fluid" src="../images/revo.jpg" style="width:100%">
+          </a>
+        </div>
+
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/artenc.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+            </div>
+            <img src="../images/work-11.jpg" style="width:100%">
+          </a>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/timotion.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+            </div>
+            <img class="img-fluid" src="../images/work-8.jpg" style="width:100%">
+          </a>
+        </div>
+
+</div>
+
+      <div class="column">
+
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/untold.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+            </div>
+            <img src="../images/2021timisoara.jpg" style="width:100%">
+          </a>
+        </div>
+
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/revo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
+            </div>
+            <img src="../imges/work-2.jpg" style="width:100%">
+          </a>
+        </div>
+
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="../images/scriptavolant.jpg" alt="">
-            </a>
-          </div>
+            </div>
+            <img src="../images/work-12.jpg" style="width:100%">
+          </a>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="../images/work-5.jpg" style="width:100%">
+          </a>
         </div>
       </div>
-    </section>
+
+
+
+<div class="column">
+
+  <div class="portfolio-item">
+    <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+      <div class="caption">
+        <div class="caption-content">
+          <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+      </div>
+      <img src="../images/artenc.jpg" style="width:100%">
+    </a>
+  </div>
+
+
+<div class="portfolio-item">
+  <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+    <div class="caption">
+      <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+      </div>
+    </div>
+    <img src="../images/untold.jpg" style="width:100%">
+  </a>
+</div>
+</div>
+
+
+    <div class="column">
+
+      <div class="portfolio-item">
+        <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="../images/work-3.jpg" style="width:100%">
+        </a>
+      </div>
+
+      <div class="portfolio-item">
+        <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="../images/work-9.jpg" style="width:100%">
+        </a>
+      </div>
+
+      <div class="portfolio-item">
+        <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="../images/work-8.jpg" style="width:100%">
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+</section>
 
 
     <!-- Footer -->
@@ -170,8 +306,7 @@
           <div class="row">
             <div class="footer-col col-md-4">
               <h3>Location</h3>
-              <p>Emanoil Ungureanu Street 9
-              <p>Strada Doctor Iosif Nemoianu, nr 9
+              <p>Doctor Iosif Nemoianu Street, nr 9</p>
                 <br>Timisoara, Romania</p>
             </div>
             <div class="footer-col col-md-4">
@@ -200,13 +335,9 @@
               </ul>
             </div>
             <div class="footer-col col-md-4">
-              <h3>About Us</h3>
-              <p>Taanananananaanannnanaanna BATMAN
-                <a href="">Hai la TeMiriC</a>.</p></div>
-                <div class="footer-col col-md-4" id="temirice">
               <h3 id="temirice">About Temirice</h3>
               <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
-                <a href="http://vagabondlabs.com/">Vagabond Labs</a>.</p>
+                <a href="http://vagabondlabs.com/" target="_blank">Vagabond Labs</a>.</p>
               </div>
           </div>
         </div>
