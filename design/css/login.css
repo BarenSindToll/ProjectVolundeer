@@ -45,6 +45,8 @@ input, button {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+
+
 .demo {
   position: absolute;
   top: 50%;
@@ -56,9 +58,18 @@ input, button {
   overflow: hidden;
 }
 
-.login {
+#logoo {
+  width: 59%;
+  height: 37%;
+  margin-left: 22%;
   position: relative;
+  padding-top: 22%;
+}
+
+
+.login {
   height: 100%;
+  border-radius: 50px;
   background: -webkit-linear-gradient(top, rgba(146]], 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
   /*background: linear-gradient(to bottom, #50a66b 0%, #2c3e50 100%);*/
   background: rgba(19, 35, 47, 0.9);
@@ -81,13 +92,10 @@ img {
     /*opacity: 0.5;*/
     filter: alpha(opacity=50); /* For IE8 and earlier */
     display: block;
-    margin: auto;
-
-
 }
 .login__form {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
   width: 100%;
   height: 50%;
