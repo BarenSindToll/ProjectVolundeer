@@ -36,7 +36,7 @@ input, button {
   border: none;
 }
 
-.background-image {
+/*.background-image {
   position: fixed;
   left: 0;
   right: 0;
@@ -50,11 +50,12 @@ input, button {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-}
+}*/
 
 .cont {
   position: relative;
   height: 100%;
+  background-image: url("../images/forest6.png");
   background-size: cover;
   overflow: auto;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
