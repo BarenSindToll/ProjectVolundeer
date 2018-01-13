@@ -19,12 +19,17 @@
   <div class="demo">
     <div class="login">
       <img  id="logoo" src="{% static "logo/logo_trans.png" %}"alt="logo here :)">
+
+      <form method="POST">
+        {% csrf_token %}
+
       <div class="login__form">
         <div class="login__row">
           <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
             <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
           </svg>
-          <input type="text" class="login__input name" placeholder="Email"/>
+
+          <input type="text" class="login__input name" placeholder="Email" name="username" value="{{form.body}}"/>
         </div>
         <br>
         <br>
@@ -33,11 +38,22 @@
           <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
             <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
           </svg>
-          <input type="password" class="login__input pass" placeholder="Password"/>
+          <input type="password" class="login__input pass" placeholder="Password" name="password" value="{{form.body}}"/>
         </div>
-        <button type="button" class="login__submit">Log in</button>
+        {% if errors %}
+                      <div class="alert alert-danger alert-dismissible" role="alert">
+                         <strong>Warning!</strong>
+                         {% for message in errors %}
+                                 {{ message }}
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+        <button type="submit" class="login__submit">Log in</button>
         <p class="login__signup">Don't have an account?<a> Sign up</a></p>
       </div>
+
+      </form>
+
     </div>
 
     </div>
