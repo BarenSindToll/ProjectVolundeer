@@ -36,26 +36,11 @@ input, button {
   border: none;
 }
 
-/*.background-image {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 1;
-
-  display: block;
-  background-image: url("../images/forest6.png");
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}*/
 
 .cont {
   position: relative;
   height: 100%;
-  background-image: url("../images/forest6.png");
+  background-image: url("../images/forest_blur.jpg");
   background-size: cover;
   overflow: auto;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
