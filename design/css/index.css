@@ -1,13 +1,53 @@
-.logomare {
-   width: 40%;
-    height: 40%;
-}
-
-.logomic{
-    width: 76px;
-    margin-left: -125%;
+#logo {
+  height: 1.63%;
+  width: 3.33%;
+  background-color: #555754;
 }
 
 
 
+.rectangle {
+  height: 5.79%;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
+}
 
+.bitmap {
+  height: 12%;
+  width: 104.51%;
+}
+
+.events {
+  height: 0.7%;
+  width: 3.89%;
+  color: #555754;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.log-in-register {
+  height: 0.7%;
+  width: 9.93%;
+  color: #555754;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about {
+  height: 0.7%;
+  width: 3.89%;
+  color: #47BF6E;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+}
