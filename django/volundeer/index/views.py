@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+from django.shortcuts import render_to_response
+from django.template import RequestContext
 
-from django.shortcuts import render
 
-# Create your views here.
-
-def index_view(request):
-    return render(request, 'index.html')
+def home(request):
+    if request.user.is_authenticated():
+        template = 'homepage.html'
+    else:
+        template = 'index.html'
+    return render_to_response(template)

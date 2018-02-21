@@ -7,10 +7,13 @@ html {
 }
 
 body {
-  background-image:  url("../images/forest_blur.jpg");
+  position: relative;
+  background-image: url("../images/pineforest.jpg");
   background-size: cover;
-  font-family: 'Titillium Web', sans-serif;
-}
+  overflow: auto;
+ height: 121.47%;	width: 106.88%;
+  background-color: rgba(0,0,0,0.53);
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;}
 
 a {
   text-decoration: none;
@@ -23,12 +26,16 @@ a:hover {
 }
 
 .form {
-  background: rgba(19, 35, 47, 0.9);
+
   padding: 40px;
   max-width: 600px;
   margin: 40px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+  height: 684px;
+  	width: 771px;
+  	border-radius: 8px;
+  		background-color: rgba(3,3,16,0.68);}
+
 }
 
 .tab-group {

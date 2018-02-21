@@ -39,10 +39,12 @@ input, button {
 
 .cont {
   position: relative;
-  height: 100%;
-  background-image: url("../images/forest_blur.jpg");
+  background-image: url("../images/pineforest.jpg");
   background-size: cover;
   overflow: auto;
+  height: 121.47%;
+  	width: 106.88%;
+  background-color: rgba(0,0,0,0.53);
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -60,26 +62,13 @@ input, button {
 }
 
 #logoo {
-  width: 59%;
-  height: 37%;
-  margin-left: 22%;
-  position: relative;
-  padding-top: 22%;
+  height: 91px;	width: 88px;
+  position : center;
 }
+.rectangle{
+	height: 515px;	width: 371px;	border-radius: 8px;	background-color: rgba(3,3,16,0.68);
 
-
-.login {
-  height: 100%;
-  border-radius: 10px;
-  background: -webkit-linear-gradient(top, rgba(146]], 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
-  background: rgba(19, 35, 47, 0.9);
-  -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
-  transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
-  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
-  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
+	}
 .login.inactive {
   opacity: 0;
   -webkit-transform: scale(1.1);
